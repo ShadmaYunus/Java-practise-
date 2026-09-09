@@ -8,11 +8,11 @@ public class ForLoops{
                 sumeven=i+sumeven;
                 even=even+1;  
             }
-            else if(i%3==0){
+            if(i%3==0){
                 sumodd=sumodd+i;
                 odd=odd+1;
             }
-            else if(i%7==0 && i>=max){
+            if(i%7==0 && i>=max){
                 max = i;
                 
             }
