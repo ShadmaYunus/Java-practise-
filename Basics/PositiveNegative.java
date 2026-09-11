@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class PositiveNegative{
+public class PositiveNegative {
     public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the numbahh");
@@ -10,7 +10,7 @@ public class PositiveNegative{
         else{
             System.out.println("number negatihvv");
         }
-        
+
 
 
     }
