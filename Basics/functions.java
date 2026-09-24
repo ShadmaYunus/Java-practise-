@@ -6,7 +6,7 @@ public class functions {
             z= x+y;
         }
         else{
-            z = (x+y)*5;
+            z = (x+y)*9;
         }
         return z;
     }
