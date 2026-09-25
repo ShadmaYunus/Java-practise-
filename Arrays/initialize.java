@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class initialize{
+public class access{
     public static void main(String[] args){
         Scanner sc =  new Scanner(System.in);
 
@@ -14,9 +14,9 @@ public class initialize{
             arr[i]= sc.nextInt();
         }
 
-        
-        int sum = arr[0] + arr[n-1];
-        System.out.println("The sum is : "+ sum);
-        
+        // display the array 
+        for(int i=0; i<n; i++){
+            System.out.println("The array elements are : "+ arr[i]);
+        }
     }
 }
